@@ -1,0 +1,184 @@
+/** 通用样式**/
+*{
+    margin:0;
+    padding:0;
+}
+
+body{ font: 14px/24px 'Microsoft YaHei', '宋体','"Helvetica Neue", Helvetica, Arial, sans-serif' }
+.l{
+    float:left;
+}
+.r{
+    float:right;
+}
+.c{
+    clear:both;
+}
+.center{
+    margin: 0 auto;
+}
+.width_{
+    width:960px;
+}
+
+/*头-顶部*/
+.top{
+    width:100%;
+    height:22px;
+    background-color: #303030;
+    color:#d8d8d8;
+    line-height: 22px;
+}
+.top .xingx1{
+    margin-right:10px;
+}
+.top a{
+    color:#d8d8d8;
+    text-decoration: none;
+}
+/*头-中部*/
+.center_header{
+    margin-top: 14px;
+}
+.header .td1{
+    height: 41px;
+    width: 6px;
+    background: url(../img/s_z.jpg) no-repeat;
+}
+
+.header .td2{
+    height: 41px;
+    width: 150px;
+    background: url(../img/s_c.jpg) repeat-x;
+
+}
+
+.header .td3{
+    height: 41px;
+    width: 78px;
+    background: url(../img/s_r.jpg) no-repeat;
+}
+.header .tabsous{
+    margin-left: 136px;
+    margin-top: 10px;
+}
+.header .inputsous{
+    height: 30px;
+    width:200px;
+    border: 0px;
+}
+
+.header .soussubmit{
+    height: 41px;
+    width:78px;
+    border: 0px;
+    background: none;
+    cursor: pointer;
+}
+
+.header .dianhua{
+    color: #ff2a00;
+    font-size: 21px;
+    margin: 24px 0px 0px 0px;
+}
+
+
+/*导航*/
+.nav{
+    width:100%;
+    height:39px;
+    background: url(../img/nav_bg.jpg) repeat-x;
+}
+.nav li{
+    list-style: none;
+    float:left;
+    line-height: 39px;
+    margin:0px 29px;
+}
+
+.nav a{
+    text-decoration: none;
+    color:#d8d8d8;
+}
+.nav .astyle,.nav li:hover{
+    background-color: darkred;
+}
+/*body*/
+.main{
+    margin-top: 10px;
+}
+.body .image{
+    margin-top: 1px;
+    height: 206px;
+    background: url(../img/ad.jpg);
+}
+.jianjie{
+    width: 496px;
+    margin-right: 12px;
+}
+.jianjie .title{
+    border-bottom:red solid 2px ;
+    height: 37px;
+    position: relative;
+}
+.jianjie .pic{
+    width: 199px;
+    height: 37px;
+    background:url(../img/jianjie.jpg) no-repeat;
+    float:left;
+}
+.jianjie .more{
+    position:absolute;
+    right: 0px;
+    bottom: 0px;
+    color: darkred;
+}
+.jianjie .content{
+    width: 508px;
+}
+.jianjie .contentpic{
+    width: 200px;
+    height: 99px;
+    background: url(../img/jianjie_img.jpg) no-repeat;
+    float:left;
+
+}
+.jianjie .contenttext{
+    text-indent: 5%;
+    color: #616161;
+}
+
+/*新闻*/
+.xinwen .title{
+    width: 407px;
+    height: 37px;
+    position: relative;
+    border-bottom: red solid 2px;
+}
+.xinwen .pic{
+    width: 168px;
+    height: 37px;
+    background:url(../img/xinwen.jpg) no-repeat;
+    float:left;
+}
+
+.xinwen span{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.xinwen .content{
+    height:219px;
+    width: 407px;
+}
+
+
+.chanpingtj .pic{
+    width: 287px;
+    height: 37px;
+    background:url(../img/chanpin.jpg) no-repeat;
+}
+.chanpingtj .content{
+    height:232px;
+}
