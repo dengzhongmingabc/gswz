@@ -134,7 +134,7 @@ body{ font: 14px/24px 'Microsoft YaHei', '宋体','"Helvetica Neue", Helvetica, 
     color: darkred;
 }
 .jianjie .content{
-    width: 508px;
+    width: 496px;
 }
 .jianjie .contentpic{
     width: 200px;
@@ -149,8 +149,11 @@ body{ font: 14px/24px 'Microsoft YaHei', '宋体','"Helvetica Neue", Helvetica, 
 }
 
 /*新闻*/
+.xinwen{
+    width: 442px;
+    margin-left: 10px;
+}
 .xinwen .title{
-    width: 407px;
     height: 37px;
     position: relative;
     border-bottom: red solid 2px;
@@ -170,10 +173,24 @@ body{ font: 14px/24px 'Microsoft YaHei', '宋体','"Helvetica Neue", Helvetica, 
 
 .xinwen .content{
     height:219px;
-    width: 407px;
+}
+.xinwen .content .xwcontentpic{
+    width: 120px;
+    height: 66px;
+    background: url(../img/list_img.jpg) no-repeat;
+    float:left;
+}
+.xinwen .content .xwcontenttext{
+    text-indent: 5%;
+    color: #616161;
+}
+.xinwen .content .list{
+    list-style-position: inside;
 }
 
-
+.xinwen .content .list li{
+    width:300px;
+}
 .chanpingtj .pic{
     width: 287px;
     height: 37px;
